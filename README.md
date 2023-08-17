@@ -1,17 +1,17 @@
 # Laboratorio-git
 Aquiba Benarroch Bittan
 
-#***GitHub***
+# ***GitHub***
 
 ![GitHub logo](/Imagenes/github-logo.png)
 
-###¿Qué es Git?
+### ¿Qué es Git?
 > Git es un software de control de versiones que nos permite registrar los cambios hechos a archivos de computadora. Un sistema de control de versiones registra los cambios a un archivo, o un conjunto de archivos a
 lo largo del tiempo, de manera que se puedan recuperar ciertas versiones posteriormente. Git hace esto a través de repositorios (almacenamiento virtual del proyecto).  
-###¿Qué es GitHub?
+### ¿Qué es GitHub?
 > GitHub es una plataforma web que permite almacenar los repositorios de una manera remota, con el fin de colaborar y coordinar los avances de un proyecto que pertenece a un equipo de trabajo.
 
-#***Bitácora***
+# ***Bitácora***
 Durante las primeras clases esto es lo que hemos hecho:
 - Aprendimos que es Git, GitHub y Git Bash. 
 - Instalamos Git 
@@ -24,15 +24,15 @@ Durante las primeras clases esto es lo que hemos hecho:
 - Instalamos VS Code y creamos la bitácora.
 - Instalamos la extensión de Markdown en VS Code y lo aprendimos a usar (poner títulos, subtítulos, imágenes).
 
-#***Git Bash***
+# ***Git Bash***
 
 ![Git Bash logo](/Imagenes/Logo%20GitBash.webp)
 
-###¿Qué es Git Bash?
+### ¿Qué es Git Bash?
 > Git Bash es una aplicación que te permite usar Git en tu
 computadora.
 ##Funcionamiento de Git Bash
-Comandos aprendidos
+### Comandos aprendidos
 - **pwd: present working directory** Esto lo que hace es que nos dice en que directorio estamos. 
 - **ls: list** Esto nos enseña que hay dentro de la carpeta en la que estamos.
 - **cd: Change directorty** Esto nos sirve para cambiar de directorio. 
@@ -42,5 +42,5 @@ Comandos aprendidos
 - **git push -u origin main** Sube los archivos del repositorio local (computadora) al remoto (internet). 
 - **git pull** Este comando sube los archivos o cambios del repositorio remoto al local. Este se usa en caso de que se trabaje desde el repositorio remoto. 
 
-##***Referencias***
+## ***Referencias***
 - Markdown Guide: [Markdown Guide](https://www.markdownguide.org/)
