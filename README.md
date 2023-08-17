@@ -33,14 +33,14 @@ Durante las primeras clases esto es lo que hemos hecho:
 computadora.
 ##Funcionamiento de Git Bash
 ### Comandos aprendidos
-- **pwd: present working directory** Esto lo que hace es que nos dice en que directorio estamos. 
-- **ls: list** Esto nos enseña que hay dentro de la carpeta en la que estamos.
+- `pwd: present working directory` Esto lo que hace es que nos dice en que directorio estamos. 
+- `ls: list` Esto nos enseña que hay dentro de la carpeta en la que estamos.
 - **cd: Change directorty** Esto nos sirve para cambiar de directorio. 
-- **git status** Este comando nos sirve para ver si ha habido algún cambio en el directorio de trabajo. 
-- **git add -A** Este comando sube los cambios realizados a los archivos a una zona de pruebas para que Git empiece a rastrearlos.
-- **git commit -m "Descripción del commit"** Sube los archivos o cambios al repositorio local. 
-- **git push -u origin main** Sube los archivos del repositorio local (computadora) al remoto (internet). 
-- **git pull** Este comando sube los archivos o cambios del repositorio remoto al local. Este se usa en caso de que se trabaje desde el repositorio remoto. 
+- `git status` Este comando nos sirve para ver si ha habido algún cambio en el directorio de trabajo. 
+- `git add -A` Este comando sube los cambios realizados a los archivos a una zona de pruebas para que Git empiece a rastrearlos.
+- `git commit -m "Descripción del commit"` Sube los archivos o cambios al repositorio local. 
+- `git push -u origin main` Sube los archivos del repositorio local (computadora) al remoto (internet). 
+- `git pull` Este comando sube los archivos o cambios del repositorio remoto al local. Este se usa en caso de que se trabaje desde el repositorio remoto. 
 
 ## ***Referencias***
 - Markdown Guide: [Markdown Guide](https://www.markdownguide.org/)
