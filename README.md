@@ -1,6 +1,8 @@
 # Laboratorio-git
 Aquiba Benarroch Bittan
+
 #***GitHub***
+
 ![GitHub logo](/Imagenes/github-logo.png)
 
 ###¿Qué es Git?
@@ -23,7 +25,9 @@ Durante las primeras clases esto es lo que hemos hecho:
 - Instalamos la extensión de Markdown en VS Code y lo aprendimos a usar (poner títulos, subtítulos, imágenes).
 
 #***Git Bash***
+
 ![Git Bash logo](/Imagenes/Logo%20GitBash.webp)
+
 ###¿Qué es Git Bash?
 > Git Bash es una aplicación que te permite usar Git en tu
 computadora.
@@ -37,5 +41,6 @@ Comandos aprendidos
  **git commit -m "Descripción del commit"** Sube los archivos o cambios al repositorio local. 
 - **git push -u origin main** Sube los archivos del repositorio local (computadora) al remoto (internet). 
 - **git pull** Este comando sube los archivos o cambios del repositorio remoto al local. Este se usa en caso de que se trabaje desde el repositorio remoto. 
+
 ##***Referencias***
 - Markdown Guide: [Markdown Guide](https://www.markdownguide.org/)
