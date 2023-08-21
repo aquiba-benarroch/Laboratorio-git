@@ -12,6 +12,7 @@ lo largo del tiempo, de manera que se puedan recuperar ciertas versiones posteri
 > GitHub es una plataforma web que permite almacenar los repositorios de una manera remota, con el fin de colaborar y coordinar los avances de un proyecto que pertenece a un equipo de trabajo.
 
 # ***Bitácora***
+## Semana Uno
 Durante las primeras clases esto es lo que hemos hecho:
 - Aprendimos que es Git, GitHub y Git Bash. 
 - Instalamos Git 
@@ -23,7 +24,9 @@ Durante las primeras clases esto es lo que hemos hecho:
 - Creamos un archivo nuevo, lo integramos en el repositorio local y luego lo subimos al repositorio remoto. 
 - Instalamos VS Code y creamos la bitácora.
 - Instalamos la extensión de Markdown en VS Code y lo aprendimos a usar (poner títulos, subtítulos, imágenes).
-
+## Semana Dos
+- Vamos a aprender a hacer diferentes ramas en el repositor, hacer commits en esas ramas y luego integrarlo todo al main. 
+---
 # ***Git Bash***
 
 ![Git Bash logo](/Imagenes/Logo%20GitBash.webp)
