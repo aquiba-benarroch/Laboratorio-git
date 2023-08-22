@@ -16,7 +16,7 @@ Durante las primeras clases esto es lo que hemos hecho:
 - Aprendimos que es Git, GitHub y Git Bash. 
 - Instalamos Git 
 - Iniciamos sesión en GitHub y creamos una sesión. 
-- En Git Bash creamos una SSH (Secure SHell) y la introducimos en GitHub. SSH es una red de comunicación segura para poder comunicar nuestra computadora y el servidor. Lo que se hace es que se crean dos llaves iguales. Una de estas se queda en nuestra computadora y otra en el servidor. Siempre que se quiere hacer un cambio, el servidor nos pide que usemos nuestra llave (contraseña que creamos) y si ambas coinciden te permite hacer los cambios.
+- En Git Bash creamos una SSH (Secure SHell) y la introducimos en GitHub. SSH es una red de comunicación segura para poder comunicar nuestra computadora y el servidor. Lo que se hace es que se crean dos llaves iguales. Una de estas se queda en nuestra computadora y otra en el servidor. Siempre que se quiere hacer un cambio, el servidor nos pide que usemos nuestra llave (contraseña que creamos) y si ambas coinciden te permite hacer los cambios. [Tutorial SSH](https://experiencia21.tec.mx/courses/388953/files/150007184?module_item_id=25013799)
 - Creamos nuestro repositorio.
 - Hicimos un clon del repositorio en la computadora. Esto debido a que normalmente trabajaremos desde la computadora y no directamente en el repositorio en internet. 
 - Aprendimos a usar Git Bash
@@ -28,10 +28,13 @@ Durante las primeras clases esto es lo que hemos hecho:
 - Creamos dos repositorios. El primero se llamó Operations y el segundo Multiplications. Lo creamos a través de Git Bash.
 - Hicimos un documento en cada una de las ramas. Este documento lo guardamos en nuestra carpeta de Git.
 - Agregamos los cambios e hicimos commit. Esto lo que hace es que agrega los documentos en las ramas, pero no en el Main. 
+- Hicimos un git push -u origin (nombre de la rama que se creó, sin parentesis) para que estos cambios se incluyan en el main.
+- Hacemos un pull request en GitHub para que el supervisor acepte los cambios.
 - Nos metimos en GitHub y hicimos un merge de lo que había en la rama al main. 
 - Eliminamos la rama que creamos y todo quedó listo en nuestro repositorio remoto.
 - En Git Bash usamos el git fetch para que actualizara y borrara lo que se borró en el repositorio remoto. 
 - Hicimos un git pull para actualizar nuestro repositorio local. 
+
 ---
 # ***Git Bash***
 
@@ -53,8 +56,9 @@ computadora.
 - `git branch -a` Este comando nos enseña cuales son las ramas que tenemos en el repositorio. 
 - `git checkout main` Nos cambia de una rama a la rama principal. 
 - `git checkout -b (nombre de la nueva rama. Es sin paréntesis)` Este comando nos cambia a una nueva rama. El -b crea la nueva rama y luego se agrega el nombre de la rama. Esto se usa cuando quieres crear una nueva rama y cambiarte a esa rama en un solo paso.
-- `git Branch -b (nombre de la nueva rama. Es sin paréntesis)` Este comando va a borrar una rama. La rama que se borra es la que pongamos. 
-- `git fetch –prune` Este comando lo que hace es descargar los cambios que se hicieron en un repositorio remoto. También esto lo que hace es eliminar todo lo que se ha marcado para borrar. Es decir, si borramos un Branch en el repo remoto, esto lo borra en el local y ya luego necesitamos hacer el pull para que se actualice en el local. 
+- `git Branch -d (nombre de la nueva rama. Es sin paréntesis)` Este comando va a borrar una rama. La rama que se borra es la que pongamos. 
+- `git fetch --prune` Este comando lo que hace es descargar los cambios que se hicieron en un repositorio remoto. También esto lo que hace es eliminar todo lo que se ha marcado para borrar. Es decir, si borramos un Branch en el repo remoto, esto lo borra en el local y ya luego necesitamos hacer el pull para que se actualice en el local. 
 
 ## ***Referencias***
+- Tecnológico de Monterrey. (s.f) Laboratorio git. Recuperado de https://experiencia21.tec.mx/courses/388953/files/150007184?module_item_id=25013799
 - Markdown Guide: [Markdown Guide](https://www.markdownguide.org/)
