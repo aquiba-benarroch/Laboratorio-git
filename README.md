@@ -1,6 +1,6 @@
 # Laboratorio-git
 Aquiba Benarroch Bittan
-
+Leonardo Rodriguez A01029331
 # ***GitHub***
 
 ![GitHub logo](/Imagenes/github-logo.png)
