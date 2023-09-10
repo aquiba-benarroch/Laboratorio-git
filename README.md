@@ -34,6 +34,7 @@ Durante las primeras clases esto es lo que hemos hecho:
 - Eliminamos la rama que creamos y todo quedó listo en nuestro repositorio remoto.
 - En Git Bash usamos el git fetch para que actualizara y borrara lo que se borró en el repositorio remoto. 
 - Hicimos un git pull para actualizar nuestro repositorio local. 
+- Nuestro repositorio queda listo.
 
 ---
 # ***Git Bash***
