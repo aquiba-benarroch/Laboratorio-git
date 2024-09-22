@@ -58,6 +58,7 @@ computadora.
 - `git checkout main` Nos cambia de una rama a la rama principal. 
 - `git checkout -b (nombre de la nueva rama. Es sin paréntesis)` Este comando nos cambia a una nueva rama. El -b crea la nueva rama y luego se agrega el nombre de la rama. Esto se usa cuando quieres crear una nueva rama y cambiarte a esa rama en un solo paso.
 - `git Branch -d (nombre de la nueva rama. Es sin paréntesis)` Este comando va a borrar una rama. La rama que se borra es la que pongamos. 
+- `git push origin --delete (Nombre de la rama. Es sin parentesis)` Este comando va a borrar la rama de Github en internet. Esto es cuando lo quieres hacer desde la compu. 
 - `git fetch --prune` Este comando lo que hace es descargar los cambios que se hicieron en un repositorio remoto. También esto lo que hace es eliminar todo lo que se ha marcado para borrar. Es decir, si borramos un Branch en el repo remoto, esto lo borra en el local y ya luego necesitamos hacer el pull para que se actualice en el local. 
 
 ## ***Referencias***
